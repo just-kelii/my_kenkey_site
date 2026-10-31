@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commey House | Fresh Ga &amp; Fante Kenkey</title>
+  <style>
+    body { font-family: Georgia, serif; margin: 0; background: #fffaf0; color: #2b1d0e; line-height: 1.6; }
+    header, footer { background: #3b2410; color: #fff; text-align: center; padding: 1rem; }
+    nav { background: #f2a900; text-align: center; padding: .6rem; }
+    nav a { color: #2b1d0e; font-weight: bold; margin: 0 .8rem; text-decoration: none; }
+    main { max-width: 900px; margin: auto; padding: 1rem; }
+    section { margin-bottom: 2rem; }
+    img, iframe, video { max-width: 100%; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+    th, td { border: 1px solid #c9b48a; padding: .5rem; text-align: left; }
+    th { background: #3b2410; color: #fff; }
+    fieldset { margin-bottom: 1rem; border: 1px solid #c9b48a; }
+    label { display: block; margin-top: .6rem; }
+    aside { background: #fff1c9; padding: 1rem; border-left: 5px solid #f2a900; }
+    blockquote { font-style: italic; border-left: 4px solid #f2a900; margin-left: 0; padding-left: 1rem; }
+  </style>
+</head>
+<body>
+
+  <!-- Site header -->
+  <header>
+    <h1 aria-label="Commey House">ℂ𝕆𝕄𝕄𝔼𝕐 ℍ𝕆𝕌𝕊𝔼</h1>
+    <p>Fresh Ga and Fante kenkey, served hot with fried fish and shito.</p>
+  </header>
+
+  <!-- Main navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#order">Order</a>
+    <a href="#visit">Visit Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+
+    <!-- About -->
+    <section id="about">
+      <h2>Our Story</h2>
+      <img src="kenkey1.webp" alt="kenkey pics" width="400">
+      <p>Welcome to <strong>Commey House</strong>, a kenkey chop bar where every ball of kenkey is made fresh daily. We serve both <em>Ga kenkey</em> (wrapped in corn husk) and <em>Fante kenkey</em> (wrapped in plantain leaf).</p>
+      <p>Come hungry, leave happy. <br><mark>Today's special: Ga kenkey with fried tilapia and extra shito.</mark></p>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <table>
+        <caption><strong>NOTE</strong> <em>You can cue your selections to your preference</em></caption>
+        <thead>
+          <tr>
+            <th scope="col">Item</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price (GH₵)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th colspan="3" scope="colgroup">Kenkey Combos</th></tr>
+          <tr><td>Ga Kenkey Combo</td><td>Ga kenkey, fried fish, shito, pepper</td><td><strong>35.00</strong></td></tr>
+          <tr><td>Fante Kenkey Combo</td><td>Fante kenkey, grilled tilapia, shito</td><td><strong>40.00</strong></td></tr>
+          <tr><td>Kenkey and Chicken</td><td>Kenkey with fried chicken and pepper sauce</td><td><strong>45.00</strong></td></tr>
+          <tr><th colspan="3" scope="colgroup">Drinks</th></tr>
+          <tr><td>Sobolo</td><td>Chilled hibiscus drink</td><td><strong>8.00</strong></td></tr>
+          <tr><td>Asaana</td><td>Traditional corn drink</td><td><strong>8.00</strong></td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td colspan="3"><small>Prices may change without notice.</small></td></tr>
+        </tfoot>
+      </table>
+
+      <h3>Add-ons</h3>
+      <ul>
+        <li>Extra fried fish</li>
+        <li>Sardines</li>
+        <li>Extra shito</li>
+        <li>Fresh pepper sauce</li>
+        <li>Sliced onion and tomato</li>
+      </ul>
+
+      <h3>How to Order</h3>
+      <ol>
+        <li>Choose your kenkey (Ga or Fante)</li>
+        <li>Pick your sides</li>
+        <li>Fill in the order form below</li>
+        <li>Collect your food or wait for delivery</li>
+      </ol>
+
+      <h3>Know Your Kenkey</h3>
+      <dl>
+        <dt>Ga kenkey</dt>
+        <dd>Fermented corn dough, wrapped in corn husk, with a slightly sour taste.</dd>
+        <dt>Fante kenkey</dt>
+        <dd>Wrapped in plantain leaf, softer and less sour than Ga kenkey.</dd>
+        <dt>Shito</dt>
+        <dd>Spicy black pepper sauce made with dried fish and shrimp.</dd>
+      </dl>
+    </section>
+
+    <!-- Video -->
+    <section id="how-its-made">
+      <h2>How We Make It</h2>
+      <video controls width="500">
+        <source src="0911.mp4" type="video/mp4">
+        Your browser does not support video.
+      </video>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews">
+      <h2>What Customers Say</h2>
+      <article>
+        <blockquote>
+          <p>Encyclopidia; “The best kenkey and fish I have eaten. The shito is perfect!”</p>
+          <p>Alpha L.; "A very nice place to have food."</p>
+          <p>Midnight Lord: "I recommend💯."</p>
+        </blockquote>
+      </article>
+    </section>
+
+    <!-- Order form -->
+    <section id="order">
+      <h2>Place an Order</h2>
+      <p>Fill in your details below. All fields marked required, must be completed.</p>
+
+      <form id="orderForm">
+        <fieldset>
+          <legend>Your Details</legend>
+
+          <label for="fn">First Name *</label>
+          <input type="text" id="fn" name="first" size="20" maxlength="30" required>
+
+          <label for="sn">Surname</label>
+          <input type="text" id="sn" name="surname" size="20" maxlength="30" required>
+
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="0241234567" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="name@example.com">
+        </fieldset>
+
+        <fieldset>
+          <legend>Your Order</legend>
+
+          <p>Kenkey type:</p>
+          <input type="radio" id="ga" name="kenkey" value="ga" required>
+          <label for="ga" style="display:inline">Ga kenkey</label>
+          <input type="radio" id="fante" name="kenkey" value="fante">
+          <label for="fante" style="display:inline">Fante kenkey</label>
+
+          <p>Sides:</p>
+          <input type="checkbox" id="fish" name="sides" value="fish">
+          <label for="fish" style="display:inline">Fried fish</label>
+          <input type="checkbox" id="shito" name="sides" value="shito">
+          <label for="shito" style="display:inline">Shito</label>
+          <input type="checkbox" id="chicken" name="sides" value="chicken">
+          <label for="chicken" style="display:inline">Fried chicken</label>
+          <input type="checkbox" id="pepper" name="sides" value="pepper">
+          <label for="pepper" style="display:inline">Pepper sauce</label>
+
+          <label for="qty">Quantity</label>
+          <select id="qty" name="quantity">
+            <option value="1">1 plate</option>
+            <option value="2">2 plates</option>
+            <option value="3">3 plates</option>
+            <option value="4">4 plates</option>
+          </select>
+
+          <label for="date">Pickup Date</label>
+          <input type="date" id="date" name="date" required>
+
+          <label for="notes">Special Requests</label>
+          <textarea id="notes" name="notes" rows="4" cols="40" placeholder="e.g. extra pepper"></textarea>
+        </fieldset>
+
+        <input type="submit" value="Place Order">
+        <input type="reset" value="Clear">
+      </form>
+    </section>
+
+    <!-- Visit us -->
+    <section id="visit">
+      <h2>Visit Us</h2>
+
+      <aside>
+        <h3>Opening Hours</h3>
+        <table>
+          <thead>
+            <tr><th scope="col">Day</th><th scope="col">Time</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Monday to Friday</td><td>8:00 AM to 8:00 PM</td></tr>
+            <tr><td>Saturday</td><td>8:00 AM to 9:00 PM</td></tr>
+            <tr><td>Sunday</td><td>12:00 PM to 7:00 PM</td></tr>
+          </tbody>
+        </table>
+      </aside>
+    </section>
+
+  </main>
+
+  <!-- Contact footer -->
+  <footer id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: <a href="tel:+233256650868" style="color:#f2a900">+233 22 333 4444</a></p>
+    <p>Email: <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCKHQdQqFZwwKVxpZwfFqgVJZjmlpqTwDsTGdSvQmJbmXQQcZrWpGRnnNSrfXRvJHZFCBXWg" style="color:#f2a900">info@commeyhouse.com</a></p>
+    <p>WhatsApp: <a href="https://wa.me/233256650868" style="color:#f2a900">Order on WhatsApp</a></p>
+    <p>Tiktok: <a href="https://www.tiktok.com/@just.kelii?_r=1&_t=ZS-9Azy8h1WrMz" style="color: #f2a900">Order on Tiktok</a></p>
+    <p>Snapchat: <a href="https://www.snapchat.com/add/just.kelii?share_id=C69GDG1nS9-yrYsSaWbWVA&locale=en_GH" style="color: #f2a900">Order on Snapchat</a></p>
+    <p><small>&copy; 2026 Commey House. All rights reserved.</small></p>
+    <p><small>&copy; just.kelii. All rights reserved.</small></p> 
+  </footer>
+  <script>
+document.getElementById("orderForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var sides = Array.from(f.querySelectorAll('input[name="sides"]:checked'))
+    .map(function (c) { return c.value; }).join(", ") || "None";
+  var kenkey = f.querySelector('input[name="kenkey"]:checked').value;
+
+  var message = [
+    "New order from the Commey House website",
+    "Name: " + f.first.value + " " + f.surname.value,
+    "Phone: " + f.phone.value,
+    "Email: " + (f.email.value || "N/A"),
+    "Kenkey: " + kenkey,
+    "Sides: " + sides,
+    "Quantity: " + f.quantity.value + " plate(s)",
+    "Pickup date: " + f.date.value,
+    "Notes: " + (f.notes.value || "None")
+  ].join("\n");
+
+  window.open("https://wa.me/233256650868?text=" + encodeURIComponent(message), "_blank");
+});
+</script>
+</body>
+</html>
